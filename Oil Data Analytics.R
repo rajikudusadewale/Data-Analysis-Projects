@@ -155,6 +155,4 @@ ggplot(new_oil, aes(x= YEAR , fill= factor(CAUSE)))+
 ggplot(new_oil, aes(x = Status))+
   theme_bw()+
   geom_bar()
-  #labs(y = "Passenger count", 
-   #    title = "Titanic Age Distribution")
-# what is the survival rate by AGe
+  
